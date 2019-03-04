@@ -13,20 +13,20 @@ You can manage your apps on the [developer console](http://ec2-13-231-26-144.ap-
 ## Create your first app
 
 1. On the dashboard, click the **Create App** button.
-2. In the popup window, type **ICO** in the App Name field.
+2. In the popup window, type **ICO** in the app name field.
 3. Click the **Create** button.
 
-Your app will be created in just a few seconds. Once done, you can find your first app on the dashboard.
+Your app will be created in just a few seconds. Once done, you can find a new app block on the dashboard.
 
 ## App ID
 
-Look into the app block, there is an ID string similar to *app-9656e5a8-cff5-4629-93a2-a066e7c9aff7*.
+Look into the app block, there is an ID similar to **app-9656e5a8-cff5-4629-93a2-a066e7c9aff7**.
 
 It's the unique identifier of your app, which you will need later.
 
 ## API Key
 
-On the profile page, you can find your API key.
+On the profile page, you can find an API key.
 
 It's the unique idetifier of your developer account, which you will need later also.
 
@@ -38,7 +38,7 @@ SChain supports core functions written in Hyperledger Fabric chaincode format.
 
 ## The sample ICO chaincode
 
-We've implemented an ERC20-like chaincode that you can simply download it [here](https://github.com/issbgkh/schain-ico).
+We've implemented an ERC20-like chaincode, you can simply download [here](https://github.com/issbgkh/schain-ico).
 
 ## Deploy the chaincode
 
@@ -50,10 +50,10 @@ We've implemented an ERC20-like chaincode that you can simply download it [here]
 
 4. Add one argument **admin**, it is the coinbase account.
 
-5. Click the *Update* button.
+5. Click the **Update** button.
 
 6. The chaincode will be deployed to SChain in just a few seconds. It's super easy, isn't it?
 
 # Wallet
 
-We've also implemented a [NodeJS wallet](https://github.com/issbgkh/schain-wallet) to interact with the just deployed ICO chaincode.
+We've also provided a [NodeJS wallet](https://github.com/issbgkh/schain-wallet) implementation to interact with the just deployed ICO chaincode.
