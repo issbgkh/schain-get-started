@@ -18,13 +18,13 @@ You can manage your apps on the [developer console](http://ec2-13-231-26-144.ap-
 
 Your app will be created in just a few seconds. Once done, you can find a new app block on the dashboard.
 
-## App ID
+## APP ID
 
 Look into the app block, there is an ID similar to **app-9656e5a8-cff5-4629-93a2-a066e7c9aff7**.
 
 It's the unique identifier of your app, which you will need later.
 
-## API Key
+## API KEY
 
 On the profile page, you can find an API key.
 
