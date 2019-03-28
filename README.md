@@ -8,7 +8,7 @@ We will show you how to deploy a sample ICO wallet app below.
 
 # Developer console
 
-You can manage your apps on the [developer console](http://ec2-13-231-26-144.ap-northeast-1.compute.amazonaws.com/).
+You can manage your apps on the [developer console](http://ec2-13-231-26-144.ap-northeast-1.compute.amazonaws.com/app).
 
 ## Create your first app
 
