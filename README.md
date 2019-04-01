@@ -10,7 +10,7 @@ With SChain, your apps can be easily deployed onto a fully managed blockchain ne
 
 The [Developer Console](http://ec2-13-231-26-144.ap-northeast-1.compute.amazonaws.com/app) is a web-based tool that helps you manage your apps.
 
-### Create your first app
+### Create an app
 
 1. On the console dashboard, click the **建立新 App** button.
 2. In the popup window, type **My First App** as the app name.
