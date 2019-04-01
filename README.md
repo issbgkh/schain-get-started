@@ -13,10 +13,10 @@ The [Developer Console](http://ec2-13-231-26-144.ap-northeast-1.compute.amazonaw
 ### Create your first app
 
 1. On the console dashboard, click the **Create App** button.
-2. In the popup window, type **My First App** in the app name field.
+2. In the popup window, type **My First App** as the app name.
 3. Click the **Create** button.
 
-Your app will be created in just a few seconds. Once everything is done, a new app block appears on the dashboard.
+Your app will be created in just a few seconds. Once everything is done, a new app block will appear on the dashboard.
 
 ### APP ID
 
@@ -34,34 +34,32 @@ It's the unique identifier of your developer account. It is also required when y
 
 The core functions of a blockchain app are typically executed on a blockchain network.
 
-Developers can upload their chaincode onto SChain, the uploaded chaincode then start working on a fully managed blockchain network.
+Developers can upload their chaincode onto the SChain, the uploaded chaincode then start working on a fully managed blockchain network.
 
-Currently, SChain supports core functions written in Hyperledger Fabric chaincode format.
+Currently, the SChain supports core functions written in Hyperledger Fabric chaincode format.
 
 ### The simple store chaincode template
 
-[Simple store template](https://github.com/issbgkh/simple-store) is the most basic chaincode.
+[Simple store template](https://github.com/issbgkh/simple-store) is the most basic chaincode example.
 
-With its **set**, **get** and **delete** functions, you can manage a set of key-value pairs in the SChain.
+With its **set**, **get** and **delete** functions, you can manage a set of key-value pairs on the SChain.
 
-### The sample ICO chaincode
+### Deploy a chaincode
 
-We've implemented an ERC20-like chaincode, you can simply download [here](https://github.com/issbgkh/schain-ico).
+1. On the console dashboard, click **智能合約設定** inside the app block.
 
-### Deploy the chaincode
+2. In the popup window, select **資料儲存樣板**.
 
-1. On the developer console, click the **Upload Contract** button inside the app block.
+3. click **設定**.
 
-2. In the popup window, click the **Select file** button, and select **chaincode.zip** in the sample chaincode directory.
+A simple store chaincode will then be deployed onto the SChain.
 
-3. Clear all arguments.
+# More resources
 
-4. Add one argument **admin**, it is the coinbase account.
+### ICO chaincode
 
-5. Click the **Update** button.
+[schain-ico](https://github.com/issbgkh/schain-ico) is another chaincode example that provides ERC20 ICO interfaces.
 
-6. The chaincode will be deployed to SChain in just a few seconds. It's super easy, isn't it?
+### ICO Wallet App
 
-# Wallet
-
-We've also provided a [NodeJS wallet](https://github.com/issbgkh/schain-wallet) implementation to interact with the just deployed ICO chaincode.
+We've also provided a [NodeJS wallet](https://github.com/issbgkh/schain-wallet) implementation to interact with the ICO chaincode.
