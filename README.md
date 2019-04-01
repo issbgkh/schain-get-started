@@ -2,7 +2,7 @@
 
 SChain is a blockchain application platform.
 
-With SChain, your apps can be easily deployed on a fully managed blockchain network.
+With SChain, your apps can be easily deployed onto a fully managed blockchain network.
 
 # 1. Create your first app
 
