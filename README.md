@@ -1,4 +1,4 @@
-# schain-get-started
+# SChain - Get Started
 
 SChain is a blockchain application platform.
 
