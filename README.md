@@ -28,13 +28,19 @@ It's the unique identifier of your app, which you will need later.
 
 On the profile page, you can find an API key.
 
-It's the unique idetifier of your developer account, which you will need later also.
+It's the unique identifier of your developer account, which you will need later also.
 
 # Chaincode
 
 The core functions of a blockchain app are typically executed on a blockchain network.
 
 SChain supports core functions written in Hyperledger Fabric chaincode format.
+
+## The simple store chaincode template
+
+[Simple store template](https://github.com/issbgkh/simple-store) is the most basic chaincode.
+
+With its **set**, **get** and **delete** functions, you can manage a set of key-value pairs in the SChain.
 
 ## The sample ICO chaincode
 
