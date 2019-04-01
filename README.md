@@ -22,13 +22,13 @@ Your app will be created in a few seconds. Once everything is done, a new app bl
 
 Look into the app block, there is an ID similar to **app-9656e5a8-cff5-4629-93a2-a066e7c9aff7**.
 
-It's the unique identifier of your app. It is required when you use SDK to access your chaincode.
+It's the unique identifier of your app. It is required when using SDK to access your chaincode.
 
 ### API KEY
 
 On the profile page, you can find an API key.
 
-It's the unique identifier of your developer account. It is also required when you use SDK to access your chaincode.
+It's the unique identifier of your developer account. It is required when using SDK to access your chaincode.
 
 # 2. Deploy a Chaincode
 
