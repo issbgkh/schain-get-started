@@ -66,4 +66,4 @@ The SChain provides [Javascript SDK](https://github.com/issbgkh/schain-sdk) so d
 
 ### ICO Wallet App
 
-We've also provided a [NodeJS wallet](https://github.com/issbgkh/schain-wallet) implementation to interact with the ICO chaincode.
+We also implemented a [NodeJS wallet](https://github.com/issbgkh/schain-wallet) that demonstrates using SDK to interact with the ICO chaincode.
