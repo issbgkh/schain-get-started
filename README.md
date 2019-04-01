@@ -50,7 +50,7 @@ With its **set**, **get** and **delete** functions, you can manage a set of key-
 
 2. In the popup window, select **資料儲存樣板**.
 
-3. click **設定**.
+3. Click **設定**.
 
 A simple store chaincode will then be deployed onto the SChain.
 
