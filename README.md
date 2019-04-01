@@ -12,11 +12,11 @@ The [Developer Console](http://ec2-13-231-26-144.ap-northeast-1.compute.amazonaw
 
 ### Create your first app
 
-1. On the console dashboard, click the **Create App** button.
+1. On the console dashboard, click the **建立新 App** button.
 2. In the popup window, type **My First App** as the app name.
 3. Click the **Create** button.
 
-Your app will be created in just a few seconds. Once everything is done, a new app block will appear on the dashboard.
+Your app will be created in a few seconds. Once everything is done, a new app block will appear on the dashboard.
 
 ### APP ID
 
@@ -30,7 +30,7 @@ On the profile page, you can find an API key.
 
 It's the unique identifier of your developer account. It is also required when you use SDK to access your chaincode.
 
-# Deploy a Chaincode
+# 2. Deploy a Chaincode
 
 The core functions of a blockchain app are typically executed on a blockchain network.
 
@@ -53,6 +53,10 @@ With its **set**, **get** and **delete** functions, you can manage a set of key-
 3. click **設定**.
 
 A simple store chaincode will then be deployed onto the SChain.
+
+# 3. SDK
+
+The SChain provides a [Javascript SDK](https://github.com/issbgkh/schain-sdk) so developers can write Javascript apps that access their uploaded chaincode.
 
 # More resources
 
