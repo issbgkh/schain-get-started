@@ -56,7 +56,7 @@ A simple store chaincode will then be deployed onto the SChain.
 
 # 3. SDK
 
-The SChain provides a [Javascript SDK](https://github.com/issbgkh/schain-sdk) so developers can write Javascript apps to access their deployed chaincode.
+The SChain provides [Javascript SDK](https://github.com/issbgkh/schain-sdk) so developers can write Javascript apps to access their deployed chaincode.
 
 # More resources
 
