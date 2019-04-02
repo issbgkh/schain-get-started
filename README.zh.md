@@ -36,9 +36,9 @@ SChain 是一個區塊鍊應用程式平台。
 
 開發者可將撰寫完成的 Chaincode 代碼上傳到 SChain 開發者中心。SChain 會將 Chaincode 代碼部屬到一個全拖管的區塊鍊網路中。目前，SChain 支援 [Hyperledger Fabric](https://www.hyperledger.org/projects/fabric) 的 Chaincode 格式。
 
-### 資料儲存樣版
+### 資料儲存樣板
 
-[資料儲存樣版](https://github.com/issbgkh/simple-store) 是最簡單的 Chaincode 代碼範例。
+[資料儲存樣板](https://github.com/issbgkh/simple-store) 是最簡單的 Chaincode 代碼範例。
 
 其中定義了 **set**, **get** 和 **delete** 函數，讓開發者可以在分散式帳本中管理多個 key-value 鍵值組。
 
@@ -48,18 +48,20 @@ SChain 是一個區塊鍊應用程式平台。
 2. 在對話框中選擇 **資料儲存樣板**。
 3. 點選 **設定** 按鈕。
 
-A simple store chaincode will then be deployed onto the SChain.
+SChain 會為你在區塊鍊網路中部署一個資料儲存樣板的 Chaincode 代碼。
 
 # 3. SDK
 
-The SChain provides [Javascript SDK](https://github.com/issbgkh/schain-sdk) so developers can write Javascript apps to access their deployed chaincode.
+SChain 提供了 [Javascript 版本的 SDK](https://github.com/issbgkh/schain-sdk)。
 
-# More resources
+開發者可使用 SDK 來存取區塊鍊中的 Chaincode 代碼。
 
-### ICO chaincode
+# 其他資源
 
-[schain-ico](https://github.com/issbgkh/schain-ico) is another chaincode example that provides ERC20 ICO interfaces.
+### ICO Chaincode
 
-### ICO Wallet App
+[schain-ico](https://github.com/issbgkh/schain-ico) 是另一個 Chaincode 代碼範例。他定義了 [ERC-20](https://en.wikipedia.org/wiki/ERC-20) 的介面函數。
 
-We also implemented a [NodeJS wallet](https://github.com/issbgkh/schain-wallet) that demonstrates using SDK to interact with the ICO chaincode.
+### ICO 錢包應用程式
+
+我們也提供了一個 [ICO 錢包](https://github.com/issbgkh/schain-wallet) 應用程式，並展示如何與 ICO Chaincode 函數互動的方法。
