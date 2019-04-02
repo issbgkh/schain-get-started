@@ -1,42 +1,40 @@
 # SChain - Get Started
 
-SChain is a blockchain application platform.
+SChain 是一個區塊鍊應用程式平台。
 
-With SChain, your apps can be easily deployed onto a fully managed blockchain network.
+只要幾個步驟，你的應用程式就能被佈署到一個全拖管的 SChain 區塊鍊網路中。
 
-# 1. Create your first app
+# 1. 創建你的第一個應用程式
 
-### Visit the Developer Console
+### 造訪 SChain 開發者中心
 
-The [Developer Console](http://ec2-13-231-26-144.ap-northeast-1.compute.amazonaws.com/app) is a web-based tool that helps you manage your apps.
+你可以在 [SChain 開發者中心](http://ec2-13-231-26-144.ap-northeast-1.compute.amazonaws.com/app) 管理你的應用程式。
 
-### Create an app
+### 創建一個應用程式
 
-1. On the console dashboard, click the **建立新 App** button.
-2. In the popup window, type **My First App** as the app name.
-3. Click the **Create** button.
+1. 在開發者中心儀表板，點選 **建立新 App** 按鈕。
+2. 在對話框中輸入 **我的應用程式** 作為應用程式名稱。
+3. 點選 **Create** 按鈕。
 
-Your app will be created in a few seconds. Once everything is done, a new app block will appear on the dashboard.
+只要幾秒鐘的時間，你的應用程式就會被創建完成。一旦創建完成，你可以在儀表板上看到一個新的應用程式區塊。
 
 ### APP ID
 
-Look into the app block, there is an ID similar to **app-9656e5a8-cff5-4629-93a2-a066e7c9aff7**.
+檢視你的應用程式區塊，其中顯示了一段 ID 序列號，看起來像是 **app-9656e5a8-cff5-4629-93a2-a066e7c9aff7**。
 
-It's the unique identifier of your app. It is required when using SDK to access your chaincode.
+此序列號為應用程式的唯一識別碼，當使用 SDK 存取 Chaincode 時需要此唯一識別碼。
 
 ### API KEY
 
-On the profile page, you can find an API key.
+在開發者中心的開發者資訊頁面中，你可以找到一段 API Key 序列號。
 
-It's the unique identifier of your developer account. It is required when using SDK to access your chaincode.
+此序列號為開發者帳號的唯一識別碼，當使用 SDK 存取 Chaincode 時需要此唯一識別碼。
 
-# 2. Deploy a Chaincode
+# 2. 部屬 Chaincode
 
-The core functions of a blockchain app are typically executed on a blockchain network.
+區塊鍊應用程式通常會將其核心代碼運行在區塊鍊網路中，以區塊鍊來保護核心代碼所存取的帳本資料。
 
-Developers can upload their chaincode onto the SChain, the uploaded chaincode then start working on a fully managed blockchain network.
-
-Currently, the SChain supports core functions written in Hyperledger Fabric chaincode format.
+開發者可將撰寫完成的 Chaincode 代碼上傳到 SChain 開發者中心。SChain 會將 Chaincode 代碼部屬到一個全拖管的區塊鍊網路中。目前，SChain 支援 [Hyperledger Fabric](https://www.hyperledger.org/projects/fabric) 的 Chaincode 格式。
 
 ### The simple store chaincode template
 
