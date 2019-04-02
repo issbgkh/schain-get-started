@@ -36,7 +36,7 @@ SChain 是一個區塊鍊應用程式平台。
 
 [資料儲存樣板](https://github.com/issbgkh/simple-store) 是最簡單的 Chaincode 代碼範例。
 
-其中定義了 **set**, **get** 和 **delete** 函數，讓開發者可以在分散式帳本中管理多個 key-value 鍵值組。
+代碼中實作了 **set**, **get** 和 **delete** 函數，讓開發者可以在分散式帳本中管理多個 key-value 鍵值組。
 
 ### 部署 Chaincode 代碼
 
@@ -56,7 +56,7 @@ SChain 提供了 [Javascript 版本的 SDK](https://github.com/issbgkh/schain-sd
 
 ### ICO Chaincode
 
-[schain-ico](https://github.com/issbgkh/schain-ico) 是另一個 Chaincode 代碼範例，其中我們展示了 [ERC-20](https://en.wikipedia.org/wiki/ERC-20) 的介面函數的實作。
+[schain-ico](https://github.com/issbgkh/schain-ico) 是另一個 Chaincode 代碼範例，代碼展示了 [ERC-20](https://en.wikipedia.org/wiki/ERC-20) 介面函數的實作。
 
 ### ICO 錢包應用程式
 
