@@ -30,25 +30,23 @@ SChain 是一個區塊鍊應用程式平台。
 
 此序列號為開發者帳號的唯一識別碼，當使用 SDK 存取 Chaincode 時需要此唯一識別碼。
 
-# 2. 部屬 Chaincode
+# 2. 部屬 Chaincode 代碼
 
 區塊鍊應用程式通常會將其核心代碼運行在區塊鍊網路中，以區塊鍊來保護核心代碼所存取的帳本資料。
 
 開發者可將撰寫完成的 Chaincode 代碼上傳到 SChain 開發者中心。SChain 會將 Chaincode 代碼部屬到一個全拖管的區塊鍊網路中。目前，SChain 支援 [Hyperledger Fabric](https://www.hyperledger.org/projects/fabric) 的 Chaincode 格式。
 
-### The simple store chaincode template
+### 資料儲存樣版
 
-[Simple store template](https://github.com/issbgkh/simple-store) is the most basic chaincode example.
+[資料儲存樣版](https://github.com/issbgkh/simple-store) 是最簡單的 Chaincode 代碼範例。
 
-With its **set**, **get** and **delete** functions, you can manage a set of key-value pairs on the SChain.
+其中定義了 **set**, **get** 和 **delete** 函數，讓開發者可以在分散式帳本中管理多個 key-value 鍵值組。
 
-### Deploy a chaincode
+### 部署 Chaincode 代碼
 
-1. On the console dashboard, click **智能合約設定** inside the app block.
-
-2. In the popup window, select **資料儲存樣板**.
-
-3. Click **設定**.
+1. 造訪開發者中心儀表版，在應用程式區塊中點選 **智能合約設定** 按鈕。
+2. 在對話框中選擇 **資料儲存樣板**。
+3. 點選 **設定** 按鈕。
 
 A simple store chaincode will then be deployed onto the SChain.
 
