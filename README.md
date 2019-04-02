@@ -64,4 +64,4 @@ SChain 提供了 [Javascript 版本的 SDK](https://github.com/issbgkh/schain-sd
 
 ### ICO 錢包應用程式
 
-我們也提供了一個 [ICO 錢包](https://github.com/issbgkh/schain-wallet) 應用程式，並展示如何與 ICO Chaincode 函數互動的方法。
+我們也提供了一個 [ICO 錢包](https://github.com/issbgkh/schain-wallet) 應用程式，其代碼展示了與 ICO Chaincode 函數互動的方法。
