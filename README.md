@@ -60,7 +60,7 @@ SChain 提供了 [Javascript 版本的 SDK](https://github.com/issbgkh/schain-sd
 
 ### ICO Chaincode
 
-[schain-ico](https://github.com/issbgkh/schain-ico) 是另一個 Chaincode 代碼範例。他定義了 [ERC-20](https://en.wikipedia.org/wiki/ERC-20) 的介面函數。
+[schain-ico](https://github.com/issbgkh/schain-ico) 是另一個 Chaincode 代碼範例，他定義了 [ERC-20](https://en.wikipedia.org/wiki/ERC-20) 的介面函數。
 
 ### ICO 錢包應用程式
 
